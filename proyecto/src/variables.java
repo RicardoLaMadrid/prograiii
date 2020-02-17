@@ -25,5 +25,7 @@ public class variables {
         System.out.printf("Si tengo %d manzanas y %d personas a cada persona le toca %d manzanas",x,c,calculo);
 
 
+
+
     }
 }
