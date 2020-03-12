@@ -15,8 +15,8 @@ public class Persona {
 //        System.out.println("ingrese su edad");
 //        int miEdad = leer.nextInt();
 //        System.out.printf("Su edad es: %d",miEdad);
-//
-//       // sumar las primeras cinco edades
+
+       // sumar las primeras cinco edades
 //        int sumaedades = 0,miEdad2=0,contador=0,promedio=0;
 //        System.out.println("ingrese su edad");
 //        while(leer.hasNextInt())
@@ -32,8 +32,8 @@ public class Persona {
 //        }
 //        System.out.println("suma total de edades es :"+sumaedades);
 //        System.out.println("el promedio de las edades es:"+promedio);
-
-
+//
+//
 //        int numero1 = 20;
 //
 //        if(numero1 % 2 == 0)
