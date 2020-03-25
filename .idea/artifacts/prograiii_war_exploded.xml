@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="prograiii:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/prograiii_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="prograiii/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="prograiii" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
