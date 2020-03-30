@@ -34,6 +34,7 @@ public class Gerente extends Empleado {
 
     public void Mostrar ()
     {
+
         System.out.printf("Nombre: %s, Apellido: %s, NumeroCI: %d, ExtensionCI: %s, NroID: %d, CodArea: %s, SueldoBasico: %d",primerNombre,primerApellido,ciNumero,ciExtension,nroID,codArea,sueldoBasico);
     }
 

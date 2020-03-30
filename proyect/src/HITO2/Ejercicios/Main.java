@@ -1,4 +1,4 @@
-package Ejercicios;
+package HITO2.Ejercicios;
 import java.io.IOException;
 
 public class Main {
@@ -6,7 +6,7 @@ public class Main {
 
 Ejercicios e = new Ejercicios();
 
-//        e.Fibonacci();
+  //        e.Fibonacci();
        // e.Burbujas();
        // e.Seleccion();
         e.arrays();

@@ -4,9 +4,12 @@ public class Main {
     public static void main(String[] args) {
 
        Gerente g = new Gerente();
+       Supervisor s = new Supervisor();
 
-       g.leer();
-       g.Mostrar();
+       s.leer();
+       s.mostrar();
+//       g.leer();
+//       g.Mostrar();
 
 
 

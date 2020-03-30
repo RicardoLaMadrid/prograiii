@@ -1,4 +1,4 @@
-package Ejercicios;
+package HITO2.Ejercicios;
 
 import java.io.BufferedReader;
 import java.io.IOException;

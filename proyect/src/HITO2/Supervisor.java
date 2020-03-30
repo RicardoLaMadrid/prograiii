@@ -12,6 +12,7 @@ public int antiguedad ;
         super();
     }
     public void leer() {
+
         System.out.printf("Ingresar sueldo:");
         sueldo = LEER.nextInt();
         System.out.printf("Ingresar antiguedad:");
@@ -19,6 +20,7 @@ public int antiguedad ;
 
     }
     public void mostrar() {
+
         System.out.printf("Sueldo:%d, Antiguedad:%d",sueldo,antiguedad);
 
     }
