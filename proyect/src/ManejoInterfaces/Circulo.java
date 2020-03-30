@@ -1,6 +1,6 @@
 package ManejoInterfaces;
 
-public class Circulo  {
+public class Circulo  implements Figura{
 
     private double PI;
     private double area;
@@ -31,6 +31,11 @@ public class Circulo  {
     public double area(double r) {
         area = PI * r * r;
         System.out.printf("El area del circulo es %d \n",area);
+        return 0;
+    }
+
+    @Override
+    public double area() {
         return 0;
     }
 }
