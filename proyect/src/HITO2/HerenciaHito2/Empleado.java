@@ -1,7 +1,4 @@
-package HITO2;
-import java.io.*;
-import java.util.Scanner;
-import java.util.Scanner;
+package HITO2.HerenciaHito2;
 
 public class Empleado implements leerInterface {
     public String primerNombre;

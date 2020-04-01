@@ -1,6 +1,5 @@
-package HITO2;
-import java.io.*;
-import java.util.Scanner;
+package HITO2.HerenciaHito2;
+
 public class Oficinista extends Empleado {
 
     public String codArea;

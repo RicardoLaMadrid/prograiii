@@ -1,8 +1,4 @@
-package HITO2;
-
-import java.io.*;
-import java.util.Scanner;
-import sun.management.jmxremote.SingleEntryRegistry;
+package HITO2.HerenciaHito2;
 
 public class Gerente extends Empleado {
 

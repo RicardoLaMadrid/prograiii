@@ -1,4 +1,4 @@
-package HITO2;
+package HITO2.HerenciaHito2;
 
 public class Secretaria extends Oficinista {
 
