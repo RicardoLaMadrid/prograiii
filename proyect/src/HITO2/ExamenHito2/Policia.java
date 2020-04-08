@@ -3,55 +3,66 @@ package HITO2.ExamenHito2;
 public class Policia extends Persona {
     public String turno ;
     public int nroDestinos;
-    public String destinos;
-
+    public String [] destinos;
+    public int nropoli;
+    public String mos1;
     public Policia()
     {
         this.turno = "";
         this.nroDestinos = 0;
-        this.destinos = "";
+
     }
     public void leer() {
-        super.leer();
-        System.out.printf("Ingrese Turno :");
-        turno = LEER.next();
+            super.leer();
+            System.out.printf("Ingrese Turno :");
+            turno = LEER.next();
 
+            System.out.println("Ingrese Numero de Destinos : ");
+            this.nroDestinos = LEER.nextInt();
+            this.destinos = new String[this.nroDestinos];
 
-        int i;
-        int[] numeros = new int[3];
-
-        System.out.println("Ingrese Numero de Destinos : ");
-        nroDestinos = LEER.nextInt();
-
-        for (i = 0; i < 3; i++) {
-            System.out.print("Ingrese Destinos :[" + i + "]= ");
-            destinos = LEER.next();
-//            numeros[i] = LEER.nextInt();
-        }
-
+            for (int i = 0; i < nroDestinos; i++) {
+                System.out.printf("Ingrese Destinos : ");
+                this.destinos[i] = LEER.next();
+                System.out.println();
+            }
     }
 
     public void mostrar()
     {
         super.mostrar();
-        System.out.printf(", Turno : %s, Numero de Destinos : %d, Destinos :%s ",turno,nroDestinos,destinos,"\n");
+        System.out.printf(", Turno : %s, Numero de Destinos : %d, Destinos :%s %s ",turno,nroDestinos,destinos,"\n");
+           for (int j = 0; j < this.nroDestinos; j++) {
+               System.out.printf("  Destino %d: %s", (j + 1), destinos[j]);
+           }
 
+       }
+
+    public String getTurno() {
+        return turno;
     }
 
-    public void destino()
-    {
-        int i;
-        int[] numeros = new int[3];
+    public void setTurno(String turno) {
+        this.turno = turno;
+    }
 
-        System.out.println("Ingrese Numero de Destinos : ");
-        nroDestinos = LEER.nextInt();
+    public int getNroDestinos() {
+        return nroDestinos;
+    }
 
-        for (i = 0; i < 3; i++) {
-            System.out.print("Ingrese Destinos :[" + i + "]= ");
-            destinos = LEER.next();
-//            numeros[i] = LEER.nextInt();
-        }
-        System.out.printf(" Destinos :%s ",destinos,"\n");
+    public void setNroDestinos(int nroDestinos) {
+        this.nroDestinos = nroDestinos;
+    }
 
+    public String[] getDestinos() {
+        return destinos;
+    }
+
+    public void setDestinos(String[] destinos) {
+        this.destinos = destinos;
     }
 }
+
+
+
+

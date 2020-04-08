@@ -5,33 +5,30 @@ public class Profesor extends Persona {
     public int cargaH;
     public String ciudad;
     public int nroMaterias;
-    public String Materias ;
+    public String [] Materias ;
 
     public Profesor()
     {
         this.cargaH = 0;
         this.ciudad = "";
         this.nroMaterias = 0;
-        this.Materias = "";
 
     }
 
     public void leer() {
         super.leer();
         System.out.printf("Ingrese Carga Horaria :");
-        cargaH = LEER.nextInt();
+        this.cargaH = LEER.nextInt();
         System.out.printf("Ingrese Ciudad :");
-        ciudad = LEER.next();
-
-        int i;
-        int[] numeros = new int[3];
-
+        this.ciudad = LEER.next();
         System.out.println("Ingrese Numero de Materias : ");
-        nroMaterias = LEER.nextInt();
+        this.nroMaterias = LEER.nextInt();
+        this.Materias = new String[this.nroMaterias];
 
-        for (i = 0; i < 3; i++) {
-            System.out.print("Ingrese Materias :[" + i + "]= ");
-            Materias = LEER.next();
+        for (int i = 0; i < nroMaterias; i++) {
+            System.out.printf("Ingrese Materias : ");
+            this.Materias[i]=LEER.next();
+            System.out.println();
 //            numeros[i] = LEER.nextInt();
         }
 
@@ -45,29 +42,62 @@ public class Profesor extends Persona {
     {
         super.mostrar();
         System.out.printf(", Carga Horaria :%d, Ciudad : %s, Numero de Materias : %d, Materias :%s %s ",cargaH,ciudad,nroMaterias,Materias,"\n");
+        for (int j = 0; j < this.nroMaterias; j++)
+        {
+            System.out.printf("Materia %d: %s",(j +1),this.Materias[j]);
+        }
+    }
+    public void verificaMateria(String[]materia1,String[]materia2){
+        for(int i=0;i<materia1.length;i++)
+        {
+            if(materia1.equals(materia2)){
+                System.out.printf("Si ienen la misma Materia");
+            }
+            else {
+                System.out.printf("No tienen la misma Materia");
+            }
+        }
+    }
+public String verificaCiudad(String[] destinos){
+        String respuesta="No trabajaron en la misma ciudad";
+        for(int i=0;i<destinos.length;i++)
+        {
+            if(this.ciudad.equals(destinos[i])){
+                respuesta="Si trabaja en esa ciudad";
+            }
+        }
+        return respuesta;
+}
 
+    public int getCargaH() {
+        return cargaH;
     }
 
-
-
-    public void verificamateria()
-    {
-        Materias = LEER.next();
-      if (Materias == Materias)
-      {
-          System.out.printf("tienen la misma materia :%s",Materias);
-      }
-      else
-      {
-          System.out.printf("no hay coincidencias");
-      }
-
+    public void setCargaH(int cargaH) {
+        this.cargaH = cargaH;
     }
 
-    public void cciudad()
-    {
-        System.out.printf("Ingrese Ciudad :");
-        ciudad = LEER.next();
-        System.out.printf(" Ciudad : %s,  %s ",ciudad,"\n");
+    public String getCiudad() {
+        return ciudad;
+    }
+
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
+    }
+
+    public int getNroMaterias() {
+        return nroMaterias;
+    }
+
+    public void setNroMaterias(int nroMaterias) {
+        this.nroMaterias = nroMaterias;
+    }
+
+    public String[] getMaterias() {
+        return Materias;
+    }
+
+    public void setMaterias(String[] materias) {
+        Materias = materias;
     }
 }
