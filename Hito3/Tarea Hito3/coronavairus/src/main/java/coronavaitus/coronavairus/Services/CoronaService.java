@@ -36,7 +36,7 @@ public class CoronaService implements CoronaServiceInterface {
     }
 
     @Override
-    public Integer delete(Integer id_corona_virus) {
+    public List<CoronaModel> delete {
         coronaRepo.deleteById(id_corona_virus);
         return 1;
     }

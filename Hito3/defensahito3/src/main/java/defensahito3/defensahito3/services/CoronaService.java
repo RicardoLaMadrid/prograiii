@@ -69,6 +69,7 @@ public class CoronaService implements CoronaServiceInterface {
     public Integer delete(CoronaModel cModel) {
         return 0;
     }
+
     @Override
     public List<CoronaModel> getAllPersons() {
         List<CoronaModel> corona = new ArrayList<CoronaModel>();
@@ -76,6 +77,7 @@ public class CoronaService implements CoronaServiceInterface {
 
         return corona;
     }
+
     @Override
     public CoronaModel getPersonByIdPer(Integer id_corona_virus) {
         Optional<CoronaModel> corona = coronaRepo.findById(id_corona_virus);
