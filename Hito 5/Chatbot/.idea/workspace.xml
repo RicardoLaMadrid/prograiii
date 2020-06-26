@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ce82390-af4b-4bca-a7bc-e7ae5e03d567" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/BuscaDatos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/Chatbot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/FileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/Leer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/Main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/Main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/Main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/Main.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/alive.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/archivo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/mensajellegada.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/pop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/chatbot/xd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Chatbot.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/README.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/BuscaDatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/Chatbot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/Leer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/Main.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/alive.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/archivo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/mensajellegada.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chatbot/pop.wav" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1dejXkQ7Z16sjvfwEyu2rYomBpF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ce82390-af4b-4bca-a7bc-e7ae5e03d567" name="Default Changelist" comment="" />
+      <created>1592792494668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592792494668</updated>
+      <workItem from="1592792501416" duration="671000" />
+      <workItem from="1592944908572" duration="629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="415" y="155" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592792544457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="415" y="155" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1592792544457" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1592944956735">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1592944956735" />
+    <state x="359" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1592944924467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="359" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1592944924467" />
+    <state x="65" y="0" key="new project wizard" timestamp="1592944942563">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728/1366.0.1280.680@0.0.1366.728" timestamp="1592944942563" />
+  </component>
+</project>
