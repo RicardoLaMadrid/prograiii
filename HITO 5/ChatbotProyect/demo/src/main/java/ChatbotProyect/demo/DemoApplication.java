@@ -23,16 +23,15 @@ public class DemoApplication extends JFrame implements KeyListener {
 	String[][] chatBot={
 
 			{"hola","holis"},
-			{"hola,que tal"},
+			{"hola","que tal"},
 
 			{"como estas?","como estas","cm stas"},
 			{"Bien gracias","de maravilla"},
 
-			{"asdasd"},
-			{"no","NO","NO!!!!!!!"},
+			{"como te llamas","como te llamas?"},
+			{"soy Brandon","Brandon"},
 
-			{"shut up","you're bad","noob","stop talking",
-					"(michael is unavailable, due to LOL)"}
+			{"alto","esta palabra no esta disponible, intenta nuevamente"}
 	};
 
 	public static void main(String[] args){
@@ -50,7 +49,7 @@ public class DemoApplication extends JFrame implements KeyListener {
 
 		p.add(scroll);
 		p.add(input);
-		p.setBackground(new Color(255,200,0));
+		p.setBackground(new Color(10,26,5));
 		add(p);
 
 		setVisible(true);
@@ -60,7 +59,7 @@ public class DemoApplication extends JFrame implements KeyListener {
 			input.setEditable(false);
 			String quote=input.getText();
 			input.setText("");
-			addText("-->You:\t"+quote);
+			addText("-->YOU:\t"+quote);
 			quote.trim();
 			while(
 					quote.charAt(quote.length()-1)=='!' ||
@@ -77,7 +76,7 @@ public class DemoApplication extends JFrame implements KeyListener {
 				if(inArray(quote.toLowerCase(),chatBot[j*2])){
 					response=2;
 					int r=(int)Math.floor(Math.random()*chatBot[(j*2)+1].length);
-					addText("\n-->Michael\t"+chatBot[(j*2)+1][r]);
+					addText("\n-->BOT:\t"+chatBot[(j*2)+1][r]);
 				}
 				j++;
 				if(j*2==chatBot.length-1 && response==0){
